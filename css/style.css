@@ -1,0 +1,102 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+input
+    {
+     border: solid 1px black;
+     padding: 10px 20px;
+    }
+
+.email
+    {
+     font-size: 20px;
+    padding-top: 30px;
+     }
+
+#password {
+   background-color: cyan;
+}
+
+
+.modal
+{
+   max-width: 500px;
+   margin: auto;
+   padding-top: 52px;
+}
+.modal .title
+{
+   text-align: center;
+}
+.modal .title a
+{
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 80%;
+   color: #3d3d3d;
+   text-decoration: none;
+}
+.modal .title span{
+   font-weight: 250;
+   font-size: 18px;
+   line-height: 89%;
+   color: #3d3d3d;
+   margin: 0 11px;
+}
+
+.in{
+    color: chartreuse;
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.registr{
+    text-align: center;
+    color: darkblue;
+    font-size: 50px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+#username{
+    background-color: aqua;
+    margin: 15px;
+}
+#password{
+    background-color: aqua;
+    margin: 15px;
+ }
+#Enter_e-mail{
+    background-color: aqua;
+    margin: 15px;
+    }
+#phone{
+    background-color: aqua;
+    margin: 15px;
+   }
+#password{
+    background-color: aqua;
+    margin: 15px;
+   }
+
+.google button{
+    margin: 10px;
+}
+.google a{
+    color: mediumvioletred;
+}
+
+.facebook{
+    margin: 10px;
+}
+.lock button{
+    margin: 15px;
+    background-color: dodgerblue;
+}
+.text1{
+    font-size: 20px;
+    color: darkgreen;
+}

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" >
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/normalize.css">
@@ -13,86 +13,61 @@
 </head>
 <body>
 <main>
-<div class="modal">
-
-    <section>
-
-        <form action="/submit"  method="post" >
-            <label class="in"> Вхід </label>
-            <span> | </span>
-            <label class="registr">   Зареєструватися  </label>
-
-
-
-            <div>
-                <h3 class="email"> Введіть свій e-mail або зареєструйтесь
-                </h3>
-            </div>
-
-
-            <div>
-                <label for="username"> </label>
-                <input type="text" name="username" placeholder="Ваше ім'я" id="username">
-            </div>
-
-
-            <div>
-                <label for="Enter_e-mail">  </label>
-                <input type="email" name="Enter_e-mail" placeholder="Введіть e-mail" id="Enter_e-mail">
-            </div>
-
-
-            <div>
-                <label for="password"> </label>
-                <input type="password" name="password" placeholder="Створіть пароль" id="password">
-            </div>
+    <div class="modal">
+        <section>
+            <form action="/submit" method="post">
+                <label class="in"> Вхід </label>
+                <span> | </span>
+                <label class="registr"> Зареєструватися </label>
+                <div>
+                    <h3 class="email"> Введіть свій e-mail або зареєструйтесь
+                    </h3>
+                </div>
+                <div>
+                    <label for="username"> </label>
+                    <input type="text" name="username" placeholder="Ваше ім'я" id="username">
+                </div>
+                <div>
+                    <label for="Enter_e-mail"> </label>
+                    <input type="email" name="Enter_e-mail" placeholder="Введіть e-mail" id="Enter_e-mail">
+                </div>
+                <div>
+                    <label for="password"> </label>
+                    <input type="password" name="password" placeholder="Створіть пароль" id="password">
+                </div>
+                <div>
+                    <label for="password_2"> </label>
+                    <input type="password" name="password" placeholder="Повторіть пароль" id="password_2">
+                </div>
 
 
-            <div>
-                <label for="password"> </label>
-                <input type="password" name="password" placeholder="Повторіть пароль" id="password">
-            </div>
+                <div>
+                    <label for="phone"> </label>
+                    <input type="tel" name="phone" placeholder="Номер телефону" maxlength="13" id="phone">
+                </div>
+                <div class="text1">
+                    Або скористайтесь
+                </div>
+                <div class="google">
+                    <button type="submit">
+                        <img src="image/g.png" alt="google" height="30" width="30"/>
+                        <a href="https://mail.google.com"> Google </a>
+                    </button>
+                </div>
+                <div class="facebook">
+                    <button type="submit">
+                        <img src="image/f.png" alt="facebook" height="30" width="30"/>
+                        <a href="https://facebook.com"> Facebook </a>
+                    </button>
+                </div>
+                <div class="lock">
+                    <button type="submit"> Зареєструвати
+                    </button>
+                </div>
+            </form>
+        </section>
 
-
-            <div>
-                <label for="phone"> </label>
-                <input type="tel" name="phone" placeholder="Номер телефону" maxlength="13" id="phone">
-            </div>
-
-            <div class="text1">
-                Або скористайтесь
-            </div>
-
-
-            <div class="google">
-                <button type="submit" >
-                    <img src="image/g.png" alt="google" height="30" width="30"/>
-                    <a href="https://mail.google.com"> Google </a>
-                </button>
-            </div>
-
-
-            <div class="facebook">
-                <button type="submit" >
-                    <img src="image/f.png" alt="facebook" height="30" width="30"/>
-                    <a href="https://facebook.com"> Facebook </a>
-                </button>
-
-            </div>
-
-            <div class="lock">
-                <button type="submit" > Зареєструвати
-                </button>
-
-            </div>
-
-        </form>
-
-
-
-    </section>
-
-</div>
+    </div>
 </main>
 </body>
 

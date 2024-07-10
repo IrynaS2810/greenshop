@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'cera_round_pro_demoregular';
+    src: url('../fonts/ceraroundprodemo-regular-webfont.eot');
+    src: url('../fonts/ceraroundprodemo-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ceraroundprodemo-regular-webfont.woff2') format('woff2'),
+    url('../fonts/ceraroundprodemo-regular-webfont.woff') format('woff'),
+    url('../fonts/ceraroundprodemo-regular-webfont.ttf') format('truetype'),
+    url('../fonts/ceraroundprodemo-regular-webfont.svg#cera_round_pro_demoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -6,7 +18,7 @@
 
 
 .modal{
-    max-width: 500;
+    max-width: 500px;
     margin: auto;
     padding: 52px;
 }
@@ -198,4 +210,80 @@ header ul{
     display: inline-block;
     font-size: 20px;
 }
+
+
+
+header nav li a{
+    font-family: 'cera_round_pro_demoregular';
+    text-decoration: none;
+}
+
+
+main .mainblock {
+    display: block;
+    justify-content: space-between;
+    max-width: 1200px;
+    height: 450px;
+    background: linear-gradient(135deg, rgba(245, 245, 245, 0.5) 0%, rgba(245, 245, 245, 0.5) 100%);
+    margin-left: 120px;
+    margin-top: 95px;
+}
+
+main ul{
+    display: flex;
+    align-items: center;
+}
+
+.shop_btn {
+     display: inline-block;
+    border-radius: 6px;
+    background: rgba(70, 163, 88, 1);
+    padding: 7px 17px;
+    justify-content: center;
+    align-items: center;
+    color: #a5a5a5 ;
+    margin-left: 43px;
+}
+
+.img_plant {
+    display: inline-block;
+    width: 507px;
+    height: 450px;
+}
+
+.text1 h4{
+    height: 16px;
+    width: 205px;
+   margin-left: 43px;
+}
+.text2{
+      padding-left: 43px;
+      color: rgba(61, 61, 61, 1);
+      height: 140px;
+      width: 530px;
+}
+.text2 span{
+    color: rgba(70, 163, 88, 1);
+}
+
+.text3{
+    padding-left: 43px;
+    width: 557px;
+    height: 45px;
+}
+
+.pl2 {
+    float: left;
+    position: relative;
+    top: 40px; left: 40px;
+    width: 135px;
+    height: 135px;
+    margin-right: -100px;
+    margin-top: 250px;
+    margin-left: 53px;
+
+
+}
+
+
 
